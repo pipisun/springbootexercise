@@ -12,7 +12,10 @@ public class StadiumDao implements IStadiumDao {
 	private Map<Integer, Book> books = new HashMap<>();
 
 	public StadiumDao() {
-		add(new Book("Book 1", "001", "Author 1", 500));
+		ArrayList<Match> matches = new ArrayList<>();
+		matches.add(new Match());
+		
+		add(new Stadium(1, "Stadium1", "City1", "State1", new ArrayList<Match>()));
 		add(new Book("Book 2", "002", "Author 2", 1000));
 	}
 
