@@ -1,5 +1,6 @@
 package com.example.demo;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 public class FriendlyMatch extends Match {
@@ -11,4 +12,8 @@ public class FriendlyMatch extends Match {
 		this.award = award;
 	}
 	
+=======
+public class FriendlyMatch extends Match {
+	private AwardType award;
+>>>>>>> branch 'master' of https://github.com/pipisun/springbootexercise.git
 }

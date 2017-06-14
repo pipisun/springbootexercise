@@ -1,5 +1,6 @@
 package com.example.demo;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 public class TournamentMatch extends Match {
@@ -11,5 +12,10 @@ public class TournamentMatch extends Match {
 		this.homePoints = homePoints;
 		this.visitorPoints = visitorPoints;
 	}
+=======
+public class TournamentMatch extends Match {
+	private int homePoints;
+	private int visitorPoints;
+>>>>>>> branch 'master' of https://github.com/pipisun/springbootexercise.git
 
 }
