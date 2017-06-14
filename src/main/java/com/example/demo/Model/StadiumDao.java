@@ -1,10 +1,13 @@
-package com.example.demo;
+package com.example.demo.Model;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.example.demo.Entity.Match;
+import com.example.demo.Entity.Stadium;
 
 public class StadiumDao implements IStadiumDao {
 	private static int idCount = 1;

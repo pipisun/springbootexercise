@@ -1,6 +1,8 @@
-package com.example.demo;
+package com.example.demo.Model;
 
 import java.util.List;
+
+import com.example.demo.Entity.Stadium;
 
 
 public interface IStadiumDao {
