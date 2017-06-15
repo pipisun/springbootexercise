@@ -35,6 +35,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.apache.tomcat</groupId>
+    		<artifactId>jasper</artifactId>
+    		<version>6.0.53</version>
+		</dependency>
 	</dependencies>
 
 	<build>

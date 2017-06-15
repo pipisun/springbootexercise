@@ -9,11 +9,11 @@ import java.util.Map;
 import com.example.demo.Entity.Match;
 import com.example.demo.Entity.Stadium;
 
-public class StadiumDao implements IStadiumDao {
+public class stadiumDao implements IStadiumDao {
 	private static int idCount = 1;
 	private Map<Integer, Stadium> stadiums = new HashMap<>();
 
-	public StadiumDao() {
+	public stadiumDao() {
 		add(new Stadium(1, "Stadium1", "City1", "State1", new ArrayList<Match>()));
 		add(new Stadium(1, "Stadium2", "City2", "State2", new ArrayList<Match>()));
 	}
